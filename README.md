@@ -1,5 +1,5 @@
-# ruby_test_runner
-RSpec test runner for ruby
+# Ruby Test Runner
+RSpec test runner for ruby with filewatching (a la Gulp/Grunt)
 
 #### Run bundler
 ```bundle install```
