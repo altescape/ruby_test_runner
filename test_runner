@@ -1,0 +1,24 @@
+#!/usr/bin/env ruby
+
+require 'filewatcher'
+require 'paint'
+
+FileWatcher.new(
+  [
+    '*.rb',
+    'lib/*.*'
+  ],
+  #exclude: [
+  #  'test_output.html',
+  #  '*.vim',
+  #  'tmp/**',
+  #  '**/*.something',
+  #  'log/*.*',
+  #  '*.cache'],
+    spinner: true).watch do |filename|
+      puts "================================================================"
+      puts Paint["Changed " + filename, :yellow]
+      puts Paint["Rerunning tests...", :yellow]
+      system("./test_commands.sh")
+      puts "================================================================"
+    end
