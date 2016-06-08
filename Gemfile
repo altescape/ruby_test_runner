@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+gem 'rspec'
+
 # file watcher (https://rubygems.org/gems/filewatcher)
 gem 'filewatcher'
 
