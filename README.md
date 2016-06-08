@@ -1,7 +1,7 @@
 ## Ruby Test Runner
 RSpec test runner for ruby with filewatching (in the style of Gulp/Grunt watchers).
 
-Just quickly set up a TDD environment in Bash and bang out some lovely code.
+To quickly set up TDD in a Bash environment.
 
 ---
 
