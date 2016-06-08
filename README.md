@@ -18,11 +18,7 @@ rspec --init
 
 #### Change permissions of files
 ```bash
-chmod +x test_runner
-```
-
-```bash
-chmod +x test_commands.sh
+chmod +x test_runner test_commands.sh
 ```
 
 #### Open terminal
