@@ -1,13 +1,29 @@
 ## Ruby Test Runner
 RSpec test runner for ruby with filewatching (a la Gulp/Grunt).
 
-Just quickly set up a TDD environment and bash out some code.
+Just quickly set up a TDD environment in Bash and bang out some lovely code.
+
+---
+
+### Instructions:
 
 #### Run bundler
-```bundle install```
+```bash
+bundle install
+```
 
 #### Change permissions of files
-```chmod +x test_runner```
+```bash
+chmod +x test_runner
+```
 
-```chmod +x test_commands.sh```
+```bash
+chmod +x test_commands.sh
+```
+
+#### Open terminal
+```bash
+./test_runner
+```
+Leave it running and code happy :bowtie:
 
