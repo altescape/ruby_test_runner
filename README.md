@@ -11,6 +11,10 @@ To quickly set up TDD in a Bash environment.
 ```bash
 bundle install
 ```
+then
+```bash
+rspec --init
+```
 
 #### Change permissions of files
 ```bash
