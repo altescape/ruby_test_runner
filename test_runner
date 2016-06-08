@@ -5,8 +5,8 @@ require 'paint'
 
 FileWatcher.new(
   [
-    '*.rb',
-    'lib/*.*'
+    'lib/*.*',
+    'spec/*.*'
   ],
   #exclude: [
   #  'test_output.html',
